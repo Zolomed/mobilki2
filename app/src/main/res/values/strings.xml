@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="button">Далее</string>
+    <string name="text">Введите имя/группу</string>
+    <string name="hint">Поиск</string>
 </resources>

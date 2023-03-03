@@ -15,7 +15,8 @@
         android:layout_marginStart="130dp"
         android:layout_marginTop="33dp"
         android:layout_marginEnd="130dp"
-        android:text="TextView" />
+        android:text="@string/text"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/button"
@@ -27,7 +28,9 @@
         android:layout_marginStart="120dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="120dp"
-        android:text="Button" />
+        android:backgroundTint="@color/gray"
+        android:text="@string/button"
+        android:textColor="@color/teal_200" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -40,9 +43,10 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="100dp"
         android:ems="10"
+        android:hint="@string/hint"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name" />
+        android:textColor="@color/black" />
 
     <ImageView
         android:id="@+id/imageView2"
