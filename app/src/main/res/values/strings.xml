@@ -3,4 +3,5 @@
     <string name="button">Далее</string>
     <string name="text">Введите имя/группу</string>
     <string name="hint">Поиск</string>
+    <string name="hint_text">Неверно</string>
 </resources>
