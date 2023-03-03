@@ -39,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:backgroundTint="@color/gray"
+        android:onClick="LogButton"
         android:text="@string/button"
         android:textColor="@color/teal_200" />
 

@@ -2,18 +2,27 @@ package com.example.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.EditText;
-import android.widget.ImageView;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 public class LinerLayout extends AppCompatActivity {
+
+    private static final String TAG = "MyApp";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.liner_layout);
-        EditText editText = (EditText) findViewById(R.id.editTextGrup1);
-        editText.setText(getString(R.string.hint_text));
-        ImageView image = findViewById(R.id.imageView1);
-        image.setImageResource(R.drawable.pr3);
+
+        Button button = (Button) findViewById(R.id.button1);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Log.i(TAG, "Button clicked");
+            }
+        });
+    }
+    public void LogButton(View view){
+        Log.i(TAG, "Button clicked");
     }
 }
