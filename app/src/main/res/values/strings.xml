@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="button">Далее</string>
-    <string name="text">Введите имя/группу</string>
-    <string name="hint">Поиск</string>
-    <string name="hint_text">Неверно</string>
+    <string name="app_name">Moi Dnevnik</string>
+    <string name="authorization_text">Заполните данные для входа</string>
+    <string name="authorization_email_hint">Введите email или телефон</string>
+    <string name="authorization_password_hint">Введите пароль</string>
+    <string name="authorization_button">Вход</string>
+    <string name="hello">Здравствуйте</string>
 </resources>
